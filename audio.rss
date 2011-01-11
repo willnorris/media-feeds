@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Example Audio RSS Feed</title>
-    <atom:link rel="self" type="text/xml" href="http://code.willnorris.com/media-feeds/audio.rss" />
+    <atom:link rel="self" type="application/rss+xml" href="http://code.willnorris.com/media-feeds/audio.rss" />
     <link>http://code.willnorris.com/media-feeds/#audio</link>
     <description>Example Audio RSS Feed</description>
     <pubDate>Thu, 23 Dec 2010 15:00:00 GMT</pubDate>
