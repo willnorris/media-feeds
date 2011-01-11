@@ -15,13 +15,13 @@
       <description>
         This post includes a video included in the rss:description element.
         &lt;br&gt;&lt;br&gt; 
-        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.m4v" /&gt;
+        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.mpeg" /&gt;
       </description>
     </item>
 
     <item>
       <title>Video in rss:enclosure</title>
-      <enclosure type="video/x-m4v" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.m4v" />
+      <enclosure type="video/mpeg" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.mpeg" />
       <guid>http://code.willnorris.com/media-feeds/#video-2</guid>
       <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
       <description>This post includes a video included in an rss:enclosure element.</description>
@@ -29,7 +29,7 @@
 
     <item>
       <title>Video in media:content</title>
-      <media:content type="video/x-m4v" url="http://code.willnorris.com/media-feeds/video/media-content.m4v" />
+      <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
       <guid>http://code.willnorris.com/media-feeds/#video-3</guid>
       <pubDate>Thu, 23 Dec 2010 13:00:00 GMT</pubDate>
       <description>This post includes a video included in a media:content element.</description>
@@ -37,14 +37,14 @@
 
     <item>
       <title>Video in rss:description, rss:enclosure, and media:content</title>
-      <enclosure type="video/x-m4v" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.m4v" />
-      <media:content type="video/x-m4v" url="http://code.willnorris.com/media-feeds/video/media-content.m4v" />
+      <enclosure type="video/mpeg" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.mpeg" />
+      <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
       <guid>http://code.willnorris.com/media-feeds/#video-4</guid>
       <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
       <description>
         This post includes videos included in the rss:description, rss:enclosure, and media:content elements.
         &lt;br&gt;&lt;br&gt; 
-        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.m4v" /&gt;
+        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.mpeg" /&gt;
       </description>
     </item>
 
