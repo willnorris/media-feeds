@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+
+    <title>Example Video Atom Feed</title>
+    <atom:link rel="self" type="application/rss+xml" href="http://code.willnorris.com/media-feeds/video.rss" />
+    <link>http://code.willnorris.com/media-feeds/#video</link>
+    <description>Example Video RSS Feed</description>
+    <pubDate>Thu, 23 Dec 2010 15:00:00 GMT</pubDate>
+
+    <item>
+      <title>Video in rss:description</title>
+      <guid>http://code.willnorris.com/media-feeds/#video-1</guid>
+      <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
+      <description>
+        This post includes a video included in the rss:description element.
+        &lt;br&gt;&lt;br&gt; 
+        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.m4v" /&gt;
+      </description>
+    </item>
+
+    <item>
+      <title>Video in rss:enclosure</title>
+      <enclosure type="video/x-m4v" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.m4v" />
+      <guid>http://code.willnorris.com/media-feeds/#video-2</guid>
+      <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
+      <description>This post includes a video included in an rss:enclosure element.</description>
+    </item>
+
+    <item>
+      <title>Video in media:content</title>
+      <media:content type="video/x-m4v" url="http://code.willnorris.com/media-feeds/video/media-content.m4v" />
+      <guid>http://code.willnorris.com/media-feeds/#video-3</guid>
+      <pubDate>Thu, 23 Dec 2010 13:00:00 GMT</pubDate>
+      <description>This post includes a video included in a media:content element.</description>
+    </item>
+
+    <item>
+      <title>Video in rss:description, rss:enclosure, and media:content</title>
+      <enclosure type="video/x-m4v" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.m4v" />
+      <media:content type="video/x-m4v" url="http://code.willnorris.com/media-feeds/video/media-content.m4v" />
+      <guid>http://code.willnorris.com/media-feeds/#video-4</guid>
+      <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
+      <description>
+        This post includes videos included in the rss:description, rss:enclosure, and media:content elements.
+        &lt;br&gt;&lt;br&gt; 
+        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.m4v" /&gt;
+      </description>
+    </item>
+
+  </channel>
+</rss>

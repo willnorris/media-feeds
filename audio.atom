@@ -8,7 +8,7 @@
   <author>
     <name>Will Norris</name>
   </author>
-  <id>http://code.willnorris.com/media-feeds/audio/</id>
+  <id>http://code.willnorris.com/media-feeds/#audio</id>
 
   <entry>
     <title>Audio in atom:content</title>

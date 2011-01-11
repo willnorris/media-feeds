@@ -14,13 +14,13 @@
       <description>
         This post includes audio included in the rss:description element.
         &lt;br&gt;&lt;br&gt; 
-        &lt;audio src="http://code.willnorris.com/media-feeds/audio/atom-content.mp3" /&gt;
+        &lt;audio src="http://code.willnorris.com/media-feeds/audio/rss-description.mp3" /&gt;
       </description>
     </item>
 
     <item>
       <title>Audio in rss:enclosure</title>
-      <enclosure type="audio/mpeg" length="21962" url="http://code.willnorris.com/media-feeds/audio/atom-link.mp3" />
+      <enclosure type="audio/mpeg" length="21962" url="http://code.willnorris.com/media-feeds/audio/rss-enclosure.mp3" />
       <guid>http://code.willnorris.com/media-feeds/#audio-2</guid>
       <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
       <description>This post includes audio included in an rss:enclosure element.</description>
@@ -36,14 +36,14 @@
 
     <item>
       <title>Audio in rss:description, rss:enclosure, and media:content</title>
-      <enclosure type="audio/mpeg" length="21962" url="http://code.willnorris.com/media-feeds/audio/atom-link.mp3" />
+      <enclosure type="audio/mpeg" length="21962" url="http://code.willnorris.com/media-feeds/audio/rss-enclosure.mp3" />
       <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
       <guid>http://code.willnorris.com/media-feeds/#audio-4</guid>
       <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
       <description>
-        This post includes audio included in the atom:content, atom:link, and media:content elements.
+        This post includes audio included in the rss:description, rss:enclosure, and media:content elements.
         &lt;br&gt;&lt;br&gt; 
-        &lt;audio src="http://code.willnorris.com/media-feeds/audio/atom-content.mp3" /&gt;
+        &lt;audio src="http://code.willnorris.com/media-feeds/audio/rss-description.mp3" /&gt;
       </description>
     </item>
 
