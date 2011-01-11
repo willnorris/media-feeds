@@ -12,7 +12,7 @@
 
   <entry>
     <title>Audio in atom:content</title>
-    <id>http://code.willnorris.com/media-feeds/#audio-1</id>
+    <id>http://code.willnorris.com/media-feeds/#audio-atom-content</id>
     <updated>2010-01-23T11:00:00Z</updated>
     <content type="html">
       This post includes audio included in the atom:content element.
@@ -24,7 +24,7 @@
   <entry>
     <title>Audio in atom:link</title>
     <link rel="enclosure" type="audio/mpeg" href="http://code.willnorris.com/media-feeds/audio/atom-link.mp3" />
-    <id>http://code.willnorris.com/media-feeds/#audio-2</id>
+    <id>http://code.willnorris.com/media-feeds/#audio-atom-link</id>
     <updated>2010-12-23T12:00:00Z</updated>
     <content type="html">This post includes audio included in an atom:link element.</content>
   </entry>
@@ -32,7 +32,7 @@
   <entry>
     <title>Audio in media:content</title>
     <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
-    <id>http://code.willnorris.com/media-feeds/#audio-3</id>
+    <id>http://code.willnorris.com/media-feeds/#audio-atom-media-content</id>
     <updated>2010-12-23T13:00:00Z</updated>
     <content type="html">This post includes audio included in a media:content element.</content>
   </entry>
@@ -41,7 +41,7 @@
     <title>Audio in atom:content, atom:link, and media:content</title>
     <link rel="enclosure" type="audio/mpeg" href="http://code.willnorris.com/media-feeds/audio/atom-link.mp3" />
     <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
-    <id>http://code.willnorris.com/media-feeds/#audio-4</id>
+    <id>http://code.willnorris.com/media-feeds/#audio-atom-all</id>
     <updated>2010-12-23T14:00:00Z</updated>
     <content type="html">
       This post includes audio included in the atom:content, atom:link, and media:content elements.

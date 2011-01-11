@@ -9,7 +9,7 @@
 
     <item>
       <title>Audio in rss:description</title>
-      <guid>http://code.willnorris.com/media-feeds/#audio-1</guid>
+      <guid>http://code.willnorris.com/media-feeds/#audio-rss-description</guid>
       <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
       <description>
         This post includes audio included in the rss:description element.
@@ -21,7 +21,7 @@
     <item>
       <title>Audio in rss:enclosure</title>
       <enclosure type="audio/mpeg" length="21962" url="http://code.willnorris.com/media-feeds/audio/rss-enclosure.mp3" />
-      <guid>http://code.willnorris.com/media-feeds/#audio-2</guid>
+      <guid>http://code.willnorris.com/media-feeds/#audio-rss-enclosure</guid>
       <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
       <description>This post includes audio included in an rss:enclosure element.</description>
     </item>
@@ -29,7 +29,7 @@
     <item>
       <title>Audio in media:content</title>
       <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
-      <guid>http://code.willnorris.com/media-feeds/#audio-3</guid>
+      <guid>http://code.willnorris.com/media-feeds/#audio-rss-media-content</guid>
       <pubDate>Thu, 23 Dec 2010 13:00:00 GMT</pubDate>
       <description>This post includes audio included in a media:content element.</description>
     </item>
@@ -38,7 +38,7 @@
       <title>Audio in rss:description, rss:enclosure, and media:content</title>
       <enclosure type="audio/mpeg" length="21962" url="http://code.willnorris.com/media-feeds/audio/rss-enclosure.mp3" />
       <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
-      <guid>http://code.willnorris.com/media-feeds/#audio-4</guid>
+      <guid>http://code.willnorris.com/media-feeds/#audio-rss-all</guid>
       <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
       <description>
         This post includes audio included in the rss:description, rss:enclosure, and media:content elements.

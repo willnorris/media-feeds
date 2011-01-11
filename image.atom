@@ -8,11 +8,11 @@
   <author>
     <name>Will Norris</name>
   </author>
-  <id>http://code.willnorris.com/media-feeds/#image</id>
+  <id>http://code.willnorris.com/media-feeds/image.atom</id>
 
   <entry>
     <title>Image in atom:content</title>
-    <id>http://code.willnorris.com/media-feeds/#image-1</id>
+    <id>http://code.willnorris.com/media-feeds/#image-atom-content</id>
     <updated>2010-01-23T11:00:00Z</updated>
     <content type="html">
       This post includes an image included in the atom:content element.
@@ -24,7 +24,7 @@
   <entry>
     <title>Image in atom:link</title>
     <link rel="enclosure" type="image/png" href="http://code.willnorris.com/media-feeds/images/atom-link.png" />
-    <id>http://code.willnorris.com/media-feeds/#image-2</id>
+    <id>http://code.willnorris.com/media-feeds/#image-atom-link</id>
     <updated>2010-12-23T12:00:00Z</updated>
     <content type="html">This post includes an image included in an atom:link element.</content>
   </entry>
@@ -32,7 +32,7 @@
   <entry>
     <title>Image in media:content</title>
     <media:content type="image/png" url="http://code.willnorris.com/media-feeds/images/media-content.png" />
-    <id>http://code.willnorris.com/media-feeds/#image-3</id>
+    <id>http://code.willnorris.com/media-feeds/#image-atom-media-content</id>
     <updated>2010-12-23T13:00:00Z</updated>
     <content type="html">This post includes an image included in a media:content element.</content>
   </entry>
@@ -41,7 +41,7 @@
     <title>Images in atom:content, atom:link, and media:content</title>
     <link rel="enclosure" type="image/png" href="http://code.willnorris.com/media-feeds/images/atom-link.png" />
     <media:content type="image/png" url="http://code.willnorris.com/media-feeds/images/media-content.png" />
-    <id>http://code.willnorris.com/media-feeds/#image-4</id>
+    <id>http://code.willnorris.com/media-feeds/#image-atom-all</id>
     <updated>2010-12-23T14:00:00Z</updated>
     <content type="html">
       This post includes images included in the atom:content, atom:link, and media:content elements.

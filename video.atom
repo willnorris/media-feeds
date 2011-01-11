@@ -12,19 +12,19 @@
 
   <entry>
     <title>Video in atom:content</title>
-    <id>http://code.willnorris.com/media-feeds/#video-1</id>
+    <id>http://code.willnorris.com/media-feeds/#video-atom-content</id>
     <updated>2010-01-23T11:00:00Z</updated>
     <content type="html">
       This post includes a video included in the atom:content element.
       &lt;br&gt;&lt;br&gt; 
-      &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" /&gt;
+      &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" controls="controls" width="478" height="223"&gt;&lt;/video&gt;
     </content>
   </entry>
 
   <entry>
     <title>Video in atom:link</title>
     <link rel="enclosure" type="video/mpeg" href="http://code.willnorris.com/media-feeds/video/atom-link.mpeg" />
-    <id>http://code.willnorris.com/media-feeds/#video-2</id>
+    <id>http://code.willnorris.com/media-feeds/#video-atom-link</id>
     <updated>2010-12-23T12:00:00Z</updated>
     <content type="html">This post includes a video included in an atom:link element.</content>
   </entry>
@@ -32,7 +32,7 @@
   <entry>
     <title>Video in media:content</title>
     <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
-    <id>http://code.willnorris.com/media-feeds/#video-3</id>
+    <id>http://code.willnorris.com/media-feeds/#video-atom-media-content</id>
     <updated>2010-12-23T13:00:00Z</updated>
     <content type="html">This post includes a video included in a media:content element.</content>
   </entry>
@@ -41,12 +41,12 @@
     <title>Videos in atom:content, atom:link, and media:content</title>
     <link rel="enclosure" type="video/mpeg" href="http://code.willnorris.com/media-feeds/video/atom-link.mpeg" />
     <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
-    <id>http://code.willnorris.com/media-feeds/#video-4</id>
+    <id>http://code.willnorris.com/media-feeds/#video-atom-all</id>
     <updated>2010-12-23T14:00:00Z</updated>
     <content type="html">
       This post includes videos included in the atom:content, atom:link, and media:content elements.
       &lt;br&gt;&lt;br&gt; 
-      &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" /&gt;
+      &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" controls="controls" width="478" height="223"&gt;&lt;/video&gt;
     </content>
   </entry>
 

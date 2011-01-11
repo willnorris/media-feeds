@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 
-    <title>Example Video Atom Feed</title>
+    <title>Example Video RSS Feed</title>
     <atom:link rel="self" type="application/rss+xml" href="http://code.willnorris.com/media-feeds/video.rss" />
     <link>http://code.willnorris.com/media-feeds/#video</link>
     <description>Example Video RSS Feed</description>
@@ -10,19 +10,19 @@
 
     <item>
       <title>Video in rss:description</title>
-      <guid>http://code.willnorris.com/media-feeds/#video-1</guid>
+      <guid>http://code.willnorris.com/media-feeds/#video-rss-description</guid>
       <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
       <description>
         This post includes a video included in the rss:description element.
         &lt;br&gt;&lt;br&gt; 
-        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.mpeg" /&gt;
+        &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" controls="controls" width="478" height="223"&gt;&lt;/video&gt;
       </description>
     </item>
 
     <item>
       <title>Video in rss:enclosure</title>
       <enclosure type="video/mpeg" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.mpeg" />
-      <guid>http://code.willnorris.com/media-feeds/#video-2</guid>
+      <guid>http://code.willnorris.com/media-feeds/#video-rss-enclosure</guid>
       <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
       <description>This post includes a video included in an rss:enclosure element.</description>
     </item>
@@ -30,7 +30,7 @@
     <item>
       <title>Video in media:content</title>
       <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
-      <guid>http://code.willnorris.com/media-feeds/#video-3</guid>
+      <guid>http://code.willnorris.com/media-feeds/#video-rss-media-content</guid>
       <pubDate>Thu, 23 Dec 2010 13:00:00 GMT</pubDate>
       <description>This post includes a video included in a media:content element.</description>
     </item>
@@ -39,12 +39,12 @@
       <title>Video in rss:description, rss:enclosure, and media:content</title>
       <enclosure type="video/mpeg" length="85178" url="http://code.willnorris.com/media-feeds/video/rss-enclosure.mpeg" />
       <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
-      <guid>http://code.willnorris.com/media-feeds/#video-4</guid>
+      <guid>http://code.willnorris.com/media-feeds/#video-rss-all</guid>
       <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
       <description>
         This post includes videos included in the rss:description, rss:enclosure, and media:content elements.
         &lt;br&gt;&lt;br&gt; 
-        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.mpeg" /&gt;
+        &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" controls="controls" width="478" height="223"&gt;&lt;/video&gt;
       </description>
     </item>
 

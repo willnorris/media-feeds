@@ -10,7 +10,7 @@
 
     <item>
       <title>Image in rss:description</title>
-      <guid>http://code.willnorris.com/media-feeds/#image-1</guid>
+      <guid>http://code.willnorris.com/media-feeds/#image-rss-description</guid>
       <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
       <description>
         This post includes an image included in the rss:description element.
@@ -22,7 +22,7 @@
     <item>
       <title>Image in rss:enclosure</title>
       <enclosure type="image/png" length="12309" url="http://code.willnorris.com/media-feeds/images/rss-enclosure.png" />
-      <guid>http://code.willnorris.com/media-feeds/#image-2</guid>
+      <guid>http://code.willnorris.com/media-feeds/#image-rss-enclosure</guid>
       <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
       <description>This post includes an image included in an rss:enclosure element.</description>
     </item>
@@ -30,7 +30,7 @@
     <item>
       <title>Image in media:content</title>
       <media:content type="image/png" url="http://code.willnorris.com/media-feeds/images/media-content.png" />
-      <guid>http://code.willnorris.com/media-feeds/#image-3</guid>
+      <guid>http://code.willnorris.com/media-feeds/#image-rss-media-content</guid>
       <pubDate>Thu, 23 Dec 2010 13:00:00 GMT</pubDate>
       <description>This post includes an image included in a media:content element.</description>
     </item>
@@ -39,7 +39,7 @@
       <title>Images in rss:description, rss:enclosure, and media:content</title>
       <enclosure type="image/png" length="12309" url="http://code.willnorris.com/media-feeds/images/rss-enclosure.png" />
       <media:content type="image/png" url="http://code.willnorris.com/media-feeds/images/media-content.png" />
-      <guid>http://code.willnorris.com/media-feeds/#image-4</guid>
+      <guid>http://code.willnorris.com/media-feeds/#image-rss-all</guid>
       <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
       <description>
         This post includes images included in the rss:description, rss:enclosure, and media:content elements.
