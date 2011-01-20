@@ -3,9 +3,18 @@
   <head>
     <title>{{page.title}}</title>
     <link rel="stylesheet" type="text/css" href="http://html5resetcss.googlecode.com/files/html5reset-1.6.1.css" />
-    <link rel="stylesheet" type="text/css" href="/media-feeds/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{site.base_url}}css/style.css" />
   </head>
   <body>
+
+    <h1><a href="{{site.base_url}}">Media Links</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{site.base_url}}image/">Image</a></li>
+        <li><a href="{{site.base_url}}audio/">Audio</a></li>
+        <li><a href="{{site.base_url}}video/">Video</a></li>
+      </ul>
+    </nav>
 {{content}}
 
 {% unless site.ga_id == nil or site.ga_id == empty %}

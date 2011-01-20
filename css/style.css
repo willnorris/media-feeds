@@ -1,6 +1,10 @@
 body {
-  width: 800px;
+  max-width: 1500px;
   margin: 1em auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 article {
@@ -16,4 +20,11 @@ article img, article audio, article video {
 article img {
   border: 1px solid #666;
   padding: 1px;
+}
+
+section {
+  width: 40%;
+  min-width: 300px;
+  margin: 0 5%;
+  float: left;
 }
