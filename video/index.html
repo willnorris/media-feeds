@@ -1,0 +1,114 @@
+---
+layout: default
+title: Video Feeds
+---
+    <h1>Video Feeds</h1>
+
+    <section id="atom">
+      <h2>Example Video Atom Feed</h2>
+      <p>
+        This feed includes demonstrates three methods for including video in Atom.
+      </p>
+      <p>
+        URL: <a href="http://code.willnorris.com/media-feeds/video/feed.atom">http://code.willnorris.com/media-feeds/video/feed.atom</a>
+      </p>
+
+      <article id="atom-content">
+        <h3>Video in atom:content</h3>
+        <p>
+          This post includes a video using an encoded <code class="tag">video</code> tag in the 
+          <code class="tag">atom:content</code> element.  If your reader supports this, you should see the following
+          video: 
+
+          <video src="atom-content.mpeg" controls="controls" width="478" height="223">
+            Your browser does not support the video element.
+          </video>
+        </p>
+      </article>
+
+      <article id="atom-link">
+        <h3>Video in atom:link</h3>
+        <p>
+          This post includes a video using a <code class="tag">atom:link</code> element with a
+          <code>rel="enclosure"</code> attribute.  If your reader supports this, you should see the
+          following video:
+
+          <video src="atom-link.mpeg" controls="controls" width="478" height="223">
+            Your browser does not support the video element.
+          </video>
+        </p>
+      </article>
+
+      <article id="atom-media-content">
+        <h3>Video in media:content</h3>
+        <p>
+          This post includes a video using a <code class="tag">media:content</code> element.  If your reader supports this,
+          you should see the following video:
+
+          <video src="media-content.mpeg" controls="controls" width="478" height="223">
+            Your browser does not support the video element.
+          </video>
+        </p>
+      </article>
+
+      <article id="atom-all">
+        <h3>Video in atom:content, atom:link, and media:content</h3>
+        <p>
+          This post includes videos using all of the above techniques.
+        </p>
+      </article>
+    </section>
+
+    <section id="rss">
+      <h2>Example Video RSS Feed</h2>
+      <p>
+        This feed includes demonstrates three methods for including video in RSS.
+      </p>
+      <p>
+        URL: <a href="http://code.willnorris.com/media-feeds/video/feed.rss">http://code.willnorris.com/media-feeds/video/feed.rss</a>
+      </p>
+
+      <article id="rss-description">
+        <h3>Video in rss:description</h3>
+        <p>
+          This post includes a video using an encoded <code class="tag">img</code> tag in the 
+          <code class="tag">rss:description</code> element.  If your reader supports this, you should see the following
+          video:
+
+          <video src="rss-description.mpeg" controls="controls" width="478" height="223">
+            Your browser does not support the video element.
+          </video>
+        </p>
+      </article>
+
+      <article id="rss-enclosure">
+        <h3>Video in rss:enclosure</h3>
+        <p>
+          This post includes a video using a <code class="tag">rss:enclosure</code> element.
+          If your reader supports this, you should see the following video:
+
+          <video src="rss-enclosure.mpeg" controls="controls" width="478" height="223">
+            Your browser does not support the video element.
+          </video>
+        </p>
+      </article>
+
+      <article id="rss-media-content">
+        <h3>Video in media:content</h3>
+        <p>
+          This post includes a video using a <code class="tag">media:content</code> element.  If your reader supports this,
+          you should see the following video:
+
+          <video src="media-content.mpeg" controls="controls" width="478" height="223">
+            Your browser does not support the video element.
+          </video>
+        </p>
+      </article>
+
+      <article id="rss-all">
+        <h3>Video in rss:description, rss:enclosure, and media:content</h3>
+        <p>
+          This post includes videos using all of the above techniques.
+        </p>
+      </article>
+    </section>

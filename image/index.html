@@ -1,0 +1,90 @@
+---
+layout: default
+title: Image Feeds
+---
+    <h1>Image Feeds</h1>
+
+    <section id="atom">
+      <h2>Example Image Atom Feed</h2>
+      <p>
+        This feed includes demonstrates three methods for including images in Atom.
+      </p>
+      <p>
+        URL: <a href="http://code.willnorris.com/media-feeds/image/feed.atom">http://code.willnorris.com/media-feeds/image/feed.atom</a>
+      </p>
+
+      <article id="atom-content">
+        <h3>Image in atom:content</h3>
+        <p>
+          This post includes an image using an encoded <code class="tag">img</code> tag in the 
+          <code class="tag">atom:content</code> element.  If your reader supports this, you should see the following
+          image: <img src="atom-content.png" />
+        </p>
+      </article>
+
+      <article id="atom-link">
+        <h3>Image in atom:link</h3>
+        <p>
+          This post includes an image using a <code class="tag">atom:link</code> element with a
+          <code>rel="enclosure"</code> attribute.  If your reader supports this, you should see the
+          following image: <img src="atom-link.png" />
+        </p>
+      </article>
+
+      <article id="atom-media-content">
+        <h3>Image in media:content</h3>
+        <p>
+          This post includes an image using a <code class="tag">media:content</code> element.  If your reader supports this,
+          you should see the following image: <img src="media-content.png" />
+        </p>
+      </article>
+
+      <article id="atom-all">
+        <h3>Images in atom:content, atom:link, and media:content</h3>
+        <p>
+          This post includes images using all of the above techniques.
+        </p>
+      </article>
+    </section>
+
+    <section id="rss">
+      <h2>Example Image RSS Feed</h2>
+      <p>
+        This feed includes demonstrates three methods for including images in RSS.
+      </p>
+      <p>
+        URL: <a href="http://code.willnorris.com/media-feeds/image/feed.rss">http://code.willnorris.com/media-feeds/image/feed.rss</a>
+      </p>
+
+      <article id="rss-description">
+        <h3>Image in rss:description</h3>
+        <p>
+          This post includes an image using an encoded <code class="tag">img</code> tag in the 
+          <code class="tag">rss:description</code> element.  If your reader supports this, you should see the following
+          image: <img src="rss-description.png" />
+        </p>
+      </article>
+
+      <article id="rss-enclosure">
+        <h3>Image in rss:enclosure</h3>
+        <p>
+          This post includes an image using a <code class="tag">rss:enclosure</code> element.
+          If your reader supports this, you should see the following image: <img src="rss-enclosure.png" />
+        </p>
+      </article>
+
+      <article id="rss-media-content">
+        <h3>Image in media:content</h3>
+        <p>
+          This post includes an image using a <code class="tag">media:content</code> element.  If your reader supports this,
+          you should see the following image: <img src="media-content.png" />
+        </p>
+      </article>
+
+      <article id="rss-all">
+        <h3>Images in rss:description, rss:enclosure, and media:content</h3>
+        <p>
+          This post includes images using all of the above techniques.
+        </p>
+      </article>
+    </section>

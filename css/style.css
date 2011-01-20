@@ -113,9 +113,12 @@ article {
   margin: 2em 0;
 }
 
-article img {
+article img, article audio, article video {
   display: block;
+  margin: 1em auto;
+}
+
+article img {
   border: 1px solid #666;
   padding: 1px;
-  margin: 1em auto;
 }

@@ -1,0 +1,114 @@
+---
+layout: default
+title: Audio Feeds
+---
+    <h1>Audio Feeds</h1>
+
+    <section id="atom">
+      <h2>Example Audio Atom Feed</h2>
+      <p>
+        This feed includes demonstrates three methods for including audio in Atom.
+      </p>
+      <p>
+        URL: <a href="http://code.willnorris.com/media-feeds/audio/feed.atom">http://code.willnorris.com/media-feeds/audio/feed.atom</a>
+      </p>
+
+      <article id="atom-content">
+        <h3>Audio in atom:content</h3>
+        <p>
+          This post includes an image using an encoded <code class="tag">audio</code> tag in the 
+          <code class="tag">atom:content</code> element.  If your reader supports this, you should hear the following
+          audio: 
+
+          <audio src="atom-content.mp3" controls="controls">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+      </article>
+
+      <article id="atom-link">
+        <h3>Audio in atom:link</h3>
+        <p>
+          This post includes audio using a <code class="tag">atom:link</code> element with a
+          <code>rel="enclosure"</code> attribute.  If your reader supports this, you should see the
+          following audio:
+
+          <audio src="atom-link.mp3" controls="controls">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+      </article>
+
+      <article id="atom-media-content">
+        <h3>Audio in media:content</h3>
+        <p>
+          This post includes audio using a <code class="tag">media:content</code> element.  If your reader supports this,
+          you should hear the following audio:
+
+          <audio src="media-content.mp3" controls="controls">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+      </article>
+
+      <article id="atom-all">
+        <h3>Audio in atom:content, atom:link, and media:content</h3>
+        <p>
+          This post includes audio using all of the above techniques.
+        </p>
+      </article>
+    </section>
+
+    <section id="rss">
+      <h2>Example Audio RSS Feed</h2>
+      <p>
+        This feed includes demonstrates three methods for including audio in RSS.
+      </p>
+      <p>
+        URL: <a href="http://code.willnorris.com/media-feeds/audio/feed.rss">http://code.willnorris.com/media-feeds/audio/feed.rss</a>
+      </p>
+
+      <article id="rss-description">
+        <h3>Audio in rss:description</h3>
+        <p>
+          This post includes audio using an encoded <code class="tag">audio</code> tag in the 
+          <code class="tag">rss:description</code> element.  If your reader supports this, you should hear the following
+          audio:
+
+          <audio src="rss-description.mp3" controls="controls">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+      </article>
+
+      <article id="rss-enclosure">
+        <h3>Audio in rss:enclosure</h3>
+        <p>
+          This post includes audio using a <code class="tag">rss:enclosure</code> element.
+          If your reader supports this, you should hear the following audio:
+
+          <audio src="rss-enclosure.mp3" controls="controls">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+      </article>
+
+      <article id="rss-media-content">
+        <h3>Audio in media:content</h3>
+        <p>
+          This post includes audio using a <code class="tag">media:content</code> element.  If your reader supports this,
+          you should hear the following audio:
+
+          <audio src="media-content.mp3" controls="controls">
+            Your browser does not support the audio element.
+          </audio>
+        </p>
+      </article>
+
+      <article id="rss-all">
+        <h3>Audio in rss:description, rss:enclosure, and media:content</h3>
+        <p>
+          This post includes audio using all of the above techniques.
+        </p>
+      </article>
+    </section>

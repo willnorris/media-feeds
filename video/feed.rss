@@ -13,9 +13,11 @@
       <guid>http://code.willnorris.com/media-feeds/video/#rss-description</guid>
       <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
       <description>
-        This post includes a video included in the rss:description element.
+        This post includes a video included in the rss:description element using &amp;lt;video&amp;gt;.
         &lt;br&gt;&lt;br&gt; 
-        &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" controls="controls" width="478" height="223"&gt;&lt;/video&gt;
+        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.mpeg" controls="controls" width="478" height="223"&gt;
+          Your browser does not support the video element.
+        &lt;/video&gt;
       </description>
     </item>
 
@@ -44,7 +46,9 @@
       <description>
         This post includes videos included in the rss:description, rss:enclosure, and media:content elements.
         &lt;br&gt;&lt;br&gt; 
-        &lt;video src="http://code.willnorris.com/media-feeds/video/atom-content.mpeg" controls="controls" width="478" height="223"&gt;&lt;/video&gt;
+        &lt;video src="http://code.willnorris.com/media-feeds/video/rss-description.mpeg" controls="controls" width="478" height="223"&gt;
+          Your browser does not support the video element.
+        &lt;/video&gt;
       </description>
     </item>
 

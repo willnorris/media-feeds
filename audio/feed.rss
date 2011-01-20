@@ -12,7 +12,7 @@
       <guid>http://code.willnorris.com/media-feeds/audio/#rss-description</guid>
       <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
       <description>
-        This post includes audio included in the rss:description element.
+        This post includes audio included in the rss:description element using &amp;lt;audio&amp;gt;.
         &lt;br&gt;&lt;br&gt; 
         &lt;audio src="http://code.willnorris.com/media-feeds/audio/rss-description.mp3" /&gt;
       </description>

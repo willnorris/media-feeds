@@ -15,9 +15,11 @@
     <id>http://code.willnorris.com/media-feeds/audio/#atom-content</id>
     <updated>2010-01-23T11:00:00Z</updated>
     <content type="html">
-      This post includes audio included in the atom:content element.
+      This post includes audio included in the atom:content element using &amp;lt;audio&amp;gt;.
       &lt;br&gt;&lt;br&gt; 
-      &lt;audio src="http://code.willnorris.com/media-feeds/audio/atom-content.mp3" /&gt;
+      &lt;audio src="http://code.willnorris.com/media-feeds/audio/atom-content.mp3" controls="controls"&gt;
+        Your browser does not support the audio element.
+      &lt;/audio&gt;
     </content>
   </entry>
 
