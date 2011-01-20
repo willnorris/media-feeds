@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 
   <title>Example Video Atom Feed</title>
-  <link rel="alternate" type="text/html" href="http://code.willnorris.com/media-feeds/#video" />
-  <link rel="self" type="application/atom+xml" href="http://code.willnorris.com/media-feeds/video.atom" />
+  <link rel="alternate" type="text/html" href="http://code.willnorris.com/media-feeds/video/" />
+  <link rel="self" type="application/atom+xml" href="http://code.willnorris.com/media-feeds/video/feed.atom" />
   <updated>2010-12-23T15:00:00Z</updated>
   <author>
     <name>Will Norris</name>
   </author>
-  <id>http://code.willnorris.com/media-feeds/#video</id>
+  <id>http://code.willnorris.com/media-feeds/video/feed.atom</id>
 
   <entry>
     <title>Video in atom:content</title>
-    <id>http://code.willnorris.com/media-feeds/#video-atom-content</id>
+    <id>http://code.willnorris.com/media-feeds/video/#atom-content</id>
     <updated>2010-01-23T11:00:00Z</updated>
     <content type="html">
       This post includes a video included in the atom:content element.
@@ -24,7 +24,7 @@
   <entry>
     <title>Video in atom:link</title>
     <link rel="enclosure" type="video/mpeg" href="http://code.willnorris.com/media-feeds/video/atom-link.mpeg" />
-    <id>http://code.willnorris.com/media-feeds/#video-atom-link</id>
+    <id>http://code.willnorris.com/media-feeds/video/#atom-link</id>
     <updated>2010-12-23T12:00:00Z</updated>
     <content type="html">This post includes a video included in an atom:link element.</content>
   </entry>
@@ -32,7 +32,7 @@
   <entry>
     <title>Video in media:content</title>
     <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
-    <id>http://code.willnorris.com/media-feeds/#video-atom-media-content</id>
+    <id>http://code.willnorris.com/media-feeds/video/#atom-media-content</id>
     <updated>2010-12-23T13:00:00Z</updated>
     <content type="html">This post includes a video included in a media:content element.</content>
   </entry>
@@ -41,7 +41,7 @@
     <title>Videos in atom:content, atom:link, and media:content</title>
     <link rel="enclosure" type="video/mpeg" href="http://code.willnorris.com/media-feeds/video/atom-link.mpeg" />
     <media:content type="video/mpeg" url="http://code.willnorris.com/media-feeds/video/media-content.mpeg" />
-    <id>http://code.willnorris.com/media-feeds/#video-atom-all</id>
+    <id>http://code.willnorris.com/media-feeds/video/#atom-all</id>
     <updated>2010-12-23T14:00:00Z</updated>
     <content type="html">
       This post includes videos included in the atom:content, atom:link, and media:content elements.
