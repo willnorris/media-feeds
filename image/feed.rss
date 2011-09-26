@@ -3,48 +3,48 @@
   <channel>
 
     <title>Example Image RSS Feed</title>
-    <atom:link rel="self" type="application/rss+xml" href="http://code.willnorris.com/media-feeds/image/feed.rss" />
-    <link>http://code.willnorris.com/media-feeds/image/</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://wiki.willnorris.com/media-feeds/image/feed.rss" />
+    <link>http://wiki.willnorris.com/media-feeds/image/</link>
     <description>Example Image RSS Feed</description>
     <pubDate>Thu, 23 Dec 2010 15:00:00 GMT</pubDate>
 
     <item>
       <title>Image in rss:description</title>
-      <guid>http://code.willnorris.com/media-feeds/image/#rss-description</guid>
+      <guid>http://wiki.willnorris.com/media-feeds/image/#rss-description</guid>
       <pubDate>Thu, 23 Dec 2010 11:00:00 GMT</pubDate>
       <description>
         This post includes an image included in the rss:description element.
         &lt;br&gt;&lt;br&gt; 
-        &lt;img src="http://code.willnorris.com/media-feeds/image/rss-description.png" /&gt;
+        &lt;img src="http://wiki.willnorris.com/media-feeds/image/rss-description.png" /&gt;
       </description>
     </item>
 
     <item>
       <title>Image in rss:enclosure</title>
-      <enclosure type="image/png" length="12309" url="http://code.willnorris.com/media-feeds/image/rss-enclosure.png" />
-      <guid>http://code.willnorris.com/media-feeds/image/#rss-enclosure</guid>
+      <enclosure type="image/png" length="12309" url="http://wiki.willnorris.com/media-feeds/image/rss-enclosure.png" />
+      <guid>http://wiki.willnorris.com/media-feeds/image/#rss-enclosure</guid>
       <pubDate>Thu, 23 Dec 2010 12:00:00 GMT</pubDate>
       <description>This post includes an image included in an rss:enclosure element.</description>
     </item>
 
     <item>
       <title>Image in media:content</title>
-      <media:content type="image/png" url="http://code.willnorris.com/media-feeds/image/media-content.png" />
-      <guid>http://code.willnorris.com/media-feeds/image/#rss-media-content</guid>
+      <media:content type="image/png" url="http://wiki.willnorris.com/media-feeds/image/media-content.png" />
+      <guid>http://wiki.willnorris.com/media-feeds/image/#rss-media-content</guid>
       <pubDate>Thu, 23 Dec 2010 13:00:00 GMT</pubDate>
       <description>This post includes an image included in a media:content element.</description>
     </item>
 
     <item>
       <title>Images in rss:description, rss:enclosure, and media:content</title>
-      <enclosure type="image/png" length="12309" url="http://code.willnorris.com/media-feeds/image/rss-enclosure.png" />
-      <media:content type="image/png" url="http://code.willnorris.com/media-feeds/image/media-content.png" />
-      <guid>http://code.willnorris.com/media-feeds/image/#rss-all</guid>
+      <enclosure type="image/png" length="12309" url="http://wiki.willnorris.com/media-feeds/image/rss-enclosure.png" />
+      <media:content type="image/png" url="http://wiki.willnorris.com/media-feeds/image/media-content.png" />
+      <guid>http://wiki.willnorris.com/media-feeds/image/#rss-all</guid>
       <pubDate>Thu, 23 Dec 2010 14:00:00 GMT</pubDate>
       <description>
         This post includes images included in the rss:description, rss:enclosure, and media:content elements.
         &lt;br&gt;&lt;br&gt; 
-        &lt;img src="http://code.willnorris.com/media-feeds/image/rss-description.png" /&gt;
+        &lt;img src="http://wiki.willnorris.com/media-feeds/image/rss-description.png" /&gt;
       </description>
     </item>
 

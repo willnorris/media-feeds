@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 
   <title>Example Audio Atom Feed</title>
-  <link rel="alternate" type="text/html" href="http://code.willnorris.com/media-feeds/audio/" />
-  <link rel="self" type="application/atom+xml" href="http://code.willnorris.com/media-feeds/audio/feed.atom" />
+  <link rel="alternate" type="text/html" href="http://wiki.willnorris.com/media-feeds/audio/" />
+  <link rel="self" type="application/atom+xml" href="http://wiki.willnorris.com/media-feeds/audio/feed.atom" />
   <updated>2010-12-23T15:00:00Z</updated>
   <author>
     <name>Will Norris</name>
   </author>
-  <id>http://code.willnorris.com/media-feeds/audio/feed.atom</id>
+  <id>http://wiki.willnorris.com/media-feeds/audio/feed.atom</id>
 
   <entry>
     <title>Audio in atom:content</title>
-    <id>http://code.willnorris.com/media-feeds/audio/#atom-content</id>
+    <id>http://wiki.willnorris.com/media-feeds/audio/#atom-content</id>
     <updated>2010-01-23T11:00:00Z</updated>
     <content type="html">
       This post includes audio included in the atom:content element using &amp;lt;audio&amp;gt;.
       &lt;br&gt;&lt;br&gt; 
-      &lt;audio src="http://code.willnorris.com/media-feeds/audio/atom-content.mp3" controls="controls"&gt;
+      &lt;audio src="http://wiki.willnorris.com/media-feeds/audio/atom-content.mp3" controls="controls"&gt;
         Your browser does not support the audio element.
       &lt;/audio&gt;
     </content>
@@ -25,30 +25,30 @@
 
   <entry>
     <title>Audio in atom:link</title>
-    <link rel="enclosure" type="audio/mpeg" href="http://code.willnorris.com/media-feeds/audio/atom-link.mp3" />
-    <id>http://code.willnorris.com/media-feeds/audio/#atom-link</id>
+    <link rel="enclosure" type="audio/mpeg" href="http://wiki.willnorris.com/media-feeds/audio/atom-link.mp3" />
+    <id>http://wiki.willnorris.com/media-feeds/audio/#atom-link</id>
     <updated>2010-12-23T12:00:00Z</updated>
     <content type="html">This post includes audio included in an atom:link element.</content>
   </entry>
 
   <entry>
     <title>Audio in media:content</title>
-    <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
-    <id>http://code.willnorris.com/media-feeds/audio/#atom-media-content</id>
+    <media:content type="audio/mpeg" url="http://wiki.willnorris.com/media-feeds/audio/media-content.mp3" />
+    <id>http://wiki.willnorris.com/media-feeds/audio/#atom-media-content</id>
     <updated>2010-12-23T13:00:00Z</updated>
     <content type="html">This post includes audio included in a media:content element.</content>
   </entry>
 
   <entry>
     <title>Audio in atom:content, atom:link, and media:content</title>
-    <link rel="enclosure" type="audio/mpeg" href="http://code.willnorris.com/media-feeds/audio/atom-link.mp3" />
-    <media:content type="audio/mpeg" url="http://code.willnorris.com/media-feeds/audio/media-content.mp3" />
-    <id>http://code.willnorris.com/media-feeds/audio/#atom-all</id>
+    <link rel="enclosure" type="audio/mpeg" href="http://wiki.willnorris.com/media-feeds/audio/atom-link.mp3" />
+    <media:content type="audio/mpeg" url="http://wiki.willnorris.com/media-feeds/audio/media-content.mp3" />
+    <id>http://wiki.willnorris.com/media-feeds/audio/#atom-all</id>
     <updated>2010-12-23T14:00:00Z</updated>
     <content type="html">
       This post includes audio included in the atom:content, atom:link, and media:content elements.
       &lt;br&gt;&lt;br&gt; 
-      &lt;audio src="http://code.willnorris.com/media-feeds/audio/atom-content.mp3" /&gt;
+      &lt;audio src="http://wiki.willnorris.com/media-feeds/audio/atom-content.mp3" /&gt;
     </content>
   </entry>
 
